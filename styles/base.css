@@ -65,7 +65,14 @@ footer
     background-color: #273E47;
     color: #D8973C;
     text-align: center;
-    padding: 12px;
+    padding: 14px;
 
+
+}
+
+main
+{
+    display: grid;
+    
 }
 
