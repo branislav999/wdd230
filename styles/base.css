@@ -5,43 +5,42 @@
 body
 {
     font-family: 'Poppins', sans-serif;
-    background-color: #D8C99B;
+    background-color: #e9edc9;
 }
 
 
 header 
 {
-    background-color: #D8973C;
-    color: #273E47;
+    background-color: #a3b18a;
+    color: #283618;
     display: grid;
-
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 10% 80% 10%;
+    padding: 30fr 30fr 30fr 30fr;
 }
 
 img
 {
     grid-column: 2/3;
-
-
 }
 
-header h1
-{
-    grid-column: 4/5;
+header span{
+    grid-column: 3/4;
 }
+
+
+
 
 nav ul {
     display: flex;
     justify-content: space-around;
     list-style: none;
-    background-color: #BD632F;
-    
-
 }
 
 
 nav li 
 {
+    border: 2px solid black;
     padding: 1rem 2rem 1rem 2rem;
 
 }
@@ -49,23 +48,22 @@ nav li
 nav li:hover
 {
 
-    background-color: #273E47;
-    color: #D8973C;
+    background-color: #a3b18a;
 }
 
 
 nav a
 {
     text-decoration: none;
-    color: #D8C99B;
+    color: #283618;
 }
 
 footer
 {
-    background-color: #273E47;
-    color: #D8973C;
+    background-color: #a3b18a;
+    color: #283618;
     text-align: center;
-    padding: 14px;
+    padding: 20px;
 
 
 }
@@ -73,6 +71,65 @@ footer
 main
 {
     display: grid;
-    
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 0.1fr 1.5fr 0.2fr;
+    padding-bottom: 5%;
+    grid-template-rows: 20% 80%;
+    text-align: center;
 }
+
+li a 
+{
+    text-decoration: none;
+    color: #283618;
+}
+
+
+
+
+/* class selectors */
+
+
+.learning-heading, .info-heading
+{
+    background-color: #a3b18a;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.learning-activities
+{
+    grid-column: 2/5;
+    border: 1px solid #283618;
+    grid-row: 2/3;
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow: 2px solid #283618;
+    border: 2px solid #283618;
+    text-align: left;
+
+}
+
+.information
+{
+    grid-column: 6/7;
+    border: 2px solid #283618;
+    grid-row: 2/3;
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow: 0px 5px 10px #283618;
+}
+
+.heading
+{
+    grid-row: 1/2;
+    grid-column: 1/8;
+}
+
+.weeks
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
 
