@@ -1,28 +1,31 @@
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
     nav ul {
-    flex-direction: column;        
+    flex-direction: row;        
     }
 
     main{
         display: grid;
-        grid-template-rows: 0.2fr 1fr 1fr 1fr 0.1fr 1.5fr 0.2fr;
+        /* grid-template-rows: 0.2fr 1fr 1fr 1fr 0.1fr 1.5fr 0.2fr; */
         grid-template-columns: 20% 80%;
         text-align: center;
     }
 
     .information{
-        grid-row: 6/7;
+        margin-left: 2%;
+        box-shadow: 0px 5px 10px #283618;
 
-        grid-column: 2/3;
+        /* grid-row: 6/7;
+
+        grid-column: 2/3; */
     }
 
-    .heading{
-        grid-row: 1/2;
-        grid-column: 1/8;
-        
-    }
+    
     .learning-activities{
-        grid-row: 2/5;
-        grid-column: 2/3;
+        margin-right: 2%;
+        box-shadow: 0px 5px 10px #283618;
+
+        /* grid-row: 2/5;
+        
+        grid-column: 2/3; */
     }
 }
