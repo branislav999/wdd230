@@ -6,7 +6,7 @@
     main{
         display: grid;
         /* grid-template-rows: 0.2fr 1fr 1fr 1fr 0.1fr 1.5fr 0.2fr; */
-        grid-template-columns: 20% 80%;
+        grid-template-columns: 30% 70%;
         text-align: center;
     }
 
