@@ -16,18 +16,20 @@ header
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30fr 30fr 30fr 30fr;
 }
 
 img
 {
-    grid-column: 2/3;
+    /* grid-column: 2/3; */
     margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 header span{
-    grid-column: 3/4;
+    /* grid-column: 3/4; */
     margin-left: 5%;
+    font-size: 200%;
 }
 
 
@@ -39,6 +41,7 @@ nav ul {
     list-style: none;
     padding: 0;
     flex-direction: column;
+    margin-top: 4%;
 }
 
 
@@ -135,8 +138,3 @@ li a
     list-style-type: none;
     padding: 0;
 }
-
-
-
-
-
