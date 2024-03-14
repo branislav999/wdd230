@@ -42,8 +42,43 @@ nav ul {
     padding: 0;
     flex-direction: column;
     margin-top: 4%;
+
+    display: none;
 }
 
+nav.open ul{
+    display: flex;
+}
+
+nav.open ul a {
+    display: block;
+}
+
+#menu {
+    background-color: #a3b18a; 
+    color: #283618; 
+    padding: 10px 40px; 
+    border: 2px solid #283618; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color .3s; 
+    margin: 5%;
+}
+
+
+#menu:hover {
+    background-color: #283618; 
+    color: #a3b18a;
+}
+
+
+#menu::before{
+    content: "☰";
+}
+
+#menu.open::before{
+    content: "X";
+}
 
 nav li 
 {
@@ -58,6 +93,67 @@ nav li:hover
     background-color: #a3b18a;
 }
 
+#dark{
+    position: absolute;
+    right: 7%;
+    top: 3%;
+}
+
+#dark::before{
+    content: "Dark Mode";
+}
+
+#dark.change::before{
+    content: "Light Mode";
+}
+
+#dark{
+    background-color: #e9edc9; 
+    color: #283618; 
+    padding: 10px 40px; 
+    border: 2px solid #283618; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color .3s; 
+    
+}
+
+#dark:hover {
+    background-color: #283618;
+    color: #e9edc9;
+    border: 2px solid #e9edc9;
+}
+
+
+
+main.change{
+    background-color: #283618;
+    transition: background-color .5s;
+}
+
+main.change h1 {
+    color:#e9edc9;
+}
+
+main.change section {
+    color: #e9edc9;
+    background-color: #a3b18a;
+}
+
+main.change section h2{
+    background-color: #283618;
+}
+
+main.change section ul li a{
+    color: white;
+
+}
+
+
+footer.changef{
+    background-color: #283618;
+    color: #a3b18a;
+}
 
 nav a
 {
@@ -71,8 +167,6 @@ footer
     color: #283618;
     text-align: center;
     padding: 20px;
-
-
 }
 
 main
@@ -81,12 +175,8 @@ main
     display: flex;
     flex-direction: column;
     padding: 5%;
-
-    /* display: grid;
-    grid-template-columns: 0.2fr 1fr 1fr 1fr 0.1fr 1.5fr 0.2fr;
-    padding-bottom: 5%;
-    grid-template-rows: 20% 80%;
-    text-align: center; */
+    padding-top: 1%;
+    
 }
 
 li a 
@@ -96,7 +186,9 @@ li a
 }
 
 
-
+nav{
+    padding-bottom: 3%;
+}
 
 /* class selectors */
 
