@@ -1,0 +1,56 @@
+:root{
+    --background-solid: black;
+    --background-medium: rgb(41, 40, 40);
+    --background-light: rgba(216, 215, 215, 0.712);
+    --background-extralight: rgba(242, 240, 240, 0.929); 
+
+}
+
+body{
+    margin: 150px;
+}
+
+table{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+caption{
+    font-size: 1.2rem;
+    caption-side: bottom;
+    margin-top: 15px;
+}
+
+th{
+    padding: 10px 20px;
+}
+
+.sub-heading{
+    border-right: thin solid rgb(121, 120, 120);
+    background-color: var(--background-medium);
+    color: white;
+}
+
+td {
+    padding: 10px 20px;
+    border: thin solid rgb(121, 120, 120);
+
+    border-collapse: collapse;
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid black;
+    border-collapse: collapse;
+}
+
+tbody tr:nth-child(even) {
+	background-color: var(--background-light);
+}
+
+.black-heading{
+    background-color: var(--background-solid);
+    color: white;
+    border-top: 1px solid black;
+}

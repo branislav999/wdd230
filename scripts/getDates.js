@@ -17,3 +17,13 @@ dark.addEventListener("click", () => {
     main.classList.toggle('change');
     dark.classList.toogle('change');
 })
+
+
+const visits = document.querySelector('.visits');
+
+let numVisits = Number(window.localStorage.getItem("numVisits")) || 0;
+visits.textContent += numVisits;
+
+numVisits++;
+
+localStorage.setItem("numVisits", numVisits);

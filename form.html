@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+</head>
+<body>
+    <header></header>
+    
+    
+    <main>
+        <form action="record.html" method="get">
+            <fieldset>
+                <label>Username <input type="text" id="fname" name="fname" required ></label>
+                <label>Password <input type="password" id="password" name="password" 
+                    pattern="^(?=.*[a-zA-Z])(?=.*\d)[a-zA-Z\d]{8,}$" 
+                    title="Password must be at least 8 characters long and contain only alphanumeric characters" 
+                    required></label>
+                <label>Confirm Password <input type="password" name="confirm-password" id="confirmPassword" required></label>
+                <label id="passwordMatch"></label>
+                <label>E-mail <input title="Please enter a valid email address" type="email" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"></label>
+                <label>Page Rating</label>
+                <div id="rangevalue">0</div> 
+                <input type="range" id="range" name="range" min="0" max="10" value="0" step="1" list="rangevalues">
+                <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>                     
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </datalist>
+                
+
+                <input type="submit" id="submit-button" value="Submit Form">
+
+            </fieldset>
+        </form>
+    </main>
+    
+
+    <footer></footer>
+    <script src="scripts/form.js"></script>
+</body>
+</html>

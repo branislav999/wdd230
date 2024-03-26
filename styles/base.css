@@ -18,7 +18,7 @@ header
     align-items: center;
 }
 
-img
+header img
 {
     /* grid-column: 2/3; */
     margin-right: 5%;
@@ -41,8 +41,8 @@ nav ul {
     list-style: none;
     padding: 0;
     flex-direction: column;
-    margin-top: 4%;
-
+    background-color: #e9edc9;
+    /* margin-top: 4%; */
     display: none;
 }
 
@@ -138,6 +138,10 @@ main.change h1 {
 main.change section {
     color: #e9edc9;
     background-color: #a3b18a;
+    border: 5px solid white;
+    box-shadow: 0px 5px 10px #a3b18a;
+
+
 }
 
 main.change section h2{
@@ -185,28 +189,32 @@ li a
 }
 
 
-nav{
-    padding-bottom: 3%;
-}
+
 
 /* class selectors */
 
 
-.learning-heading, .info-heading
+.learning-heading, .info-heading, .map-heading
 {
     background-color: #a3b18a;
-    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.5rem;
     text-align: center;
 }
+.map-heading{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 
 .learning-activities
 {
     /* grid-column: 2/5; */
-    border: 1px solid #283618;
+    border: 2px solid #283618;
     /* grid-row: 2/3; */
     padding: 1rem 1rem 1rem 1rem;
     border: 2px solid #283618;
     text-align: left;
+    box-shadow: 0px 5px 10px #283618;
 
 }
 
@@ -216,6 +224,8 @@ nav{
     border: 2px solid #283618;
     /* grid-row: 2/3; */
     padding: 1rem 1rem 1rem 1rem;
+    box-shadow: 0px 5px 10px #283618;
+
 }
 
 .heading
@@ -228,4 +238,50 @@ nav{
 {
     list-style-type: none;
     padding: 0;
+}
+
+.hero-image{
+    
+    position: relative;
+    height: 100%;    
+}
+
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-label {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    background: radial-gradient( #a3b18a, #e9edc9);
+    padding: 0 15px ;
+    box-shadow: 0 0 3rem #e9edc9;
+    opacity: .75;
+}
+
+.hero-label p {
+
+	font-weight: 300;
+	
+}
+
+.map{
+    margin-top: 2rem;
+    grid-column: 1/3;
+    border: 2px solid #283618;
+    /* grid-row: 2/3; */
+    padding: auto;
+    box-shadow: 0px 5px 10px #283618;
+
+
+}
+
+iframe{
+    padding-left: 2%;
+    width: 1500px;
+    height: 500px;
+    max-width: 90%;
 }

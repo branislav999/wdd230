@@ -9,7 +9,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://branislav999.github.io/wdd230-01/" />
     <meta property="og:image" content="https://bookaweb.s3.eu-central-1.amazonaws.com/media/73794/novi-sad-destinacija-feature.jpg" />
-    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
+    <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="favicon.ico">
@@ -17,23 +17,34 @@
 </head>
 <body>
     <header>
-        <img src="images/za sajt.jpg" alt="" width="200" height="200">
+        <img src="images/za-sajt.webp" loading="lazy" alt="Slika" width="200" height="200">
         <span>Branislav Bogosavac</span>
         <button id="dark"></button>
     </header>
     <button id="menu"></button>
-    <nav>
-        <ul>
-            <a href="#"><li>Home</li></a>
+        <nav>
+            <ul>
+                <a href="index.html"><li>Home</li></a>
 
-            <a href="week01/chamber-site-plan.html">
-            <li>Chamber</li>
-            </a>
-            
-            <a href="#"><li>Site Plan</li></a>
-            <a href="#"><li>Form</li></a>
-        </ul>
-    </nav>
+                <a href="chamber/chamber.html">
+                <li>Chamber</li>
+                </a>
+                
+                <a href="#"><li>Site Plan</li></a>
+                <a href="form.html"><li>Form</li></a>
+            </ul>
+        </nav>
+    <div class="hero-image">
+        <picture>
+            <source media="(max-width: 400px )" srcset="images/payson-reduced.webp">
+            <source media="(max-width: 960px )" srcset="images/payson-temple.webp">
+            <img src="images/payson-temple.webp" loading="lazy" alt="Payson Temple">
+        </picture>
+        <div class="hero-label">
+            <p>Payson Utah Temple</p>
+        </div>
+    </div>
+    
     <main>
         <h1 class="heading">WDD 230: Web Frontend Development</h1>
         <section class="learning-activities">
@@ -51,8 +62,18 @@
                 <a href="https://branislav999.github.io/wdd230-01/week02/bom.html">DOM </a>                
                 </li>
 
-                <li><a href="#">Week 03:</a></li>
-                <li><a href="#">Week 04:</a></li>
+                <li><a href="#">Week 03:</a>
+                <a href="week03/images/landscape.webp">Compressed Image | </a>
+                <a href="week03/lazyload.html">Lazyload | </a>
+                </li>
+                
+                <li><a href="#">Week 04:</a>
+                <a href="https://codepen.io/baneneba/pen/ExJZqVL">Codepen | </a>
+                <a href="week04/images/combinators.png">Combinators | </a>
+                <a href="week04/tablebuild.html">Table | </a>
+                <a href="form-start/Form-start/index.html">Forms</a>
+                </li>
+
                 <li><a href="#">Week 05:</a></li>
                 <li><a href="#">Week 06:</a></li>
             </ul>
@@ -60,6 +81,13 @@
         </section>
         <section class="information">
             <h2 class="info-heading">Information</h2>
+            <p><span class="visits">Number of Visits: </span></p>
+        </section>
+        
+        <section class="map">
+            <h2 class="map-heading">Map</h2> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25417.445254556274!2d20.438841284781084!3d44.81043867918111!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ab4f7ba19a5%3A0x29bdf885da51d1b2!2sKalemegdan!5e0!3m2!1sen!2sus!4v1710898920294!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </section>
     </main>
     <footer>

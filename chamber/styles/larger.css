@@ -1,0 +1,59 @@
+@media screen and (min-width: 500px) {
+
+    /* nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+
+    nav ul li {
+        padding: 0 5%;
+    }  */
+
+
+    #menu{
+        display: none;
+    }
+
+
+    .navigation{
+        flex-direction: row;
+    }
+
+    .navigation a{
+        display: block;
+        padding: 0 5%;
+        font-size: 2rem;
+    }
+
+
+    #content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 2rem;
+        
+    }
+
+    .events {
+        grid-column: 1/2;
+    }
+    
+    .weather{
+        grid-column: 2/3;
+    }
+
+    .ad{
+        grid-column: 3/4;
+    }
+
+    .hero-text{
+        position: absolute;
+        top:22%;
+        left:20%;
+        text-align: center; 
+        font-size: 3rem;   
+    }
+    
+}
