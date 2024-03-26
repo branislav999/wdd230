@@ -55,5 +55,39 @@
         text-align: center; 
         font-size: 3rem;   
     }
+
+
+    input{
+        width: 400px;
+    }
     
+    #form{
+        padding: 2% 4%;
+    }
+}
+
+@media screen and (min-width: 850px){
+    #form{
+        display: grid;
+        grid-template-columns: 55% 45%;
+        grid-gap: 2rem;
+    }
+
+    #membership{
+        margin: 0 0 ;
+    }
+    
+    
+
+
+}
+
+@media screen and (min-width: 1000px){
+    #form{
+        padding: 2% 10%;
+    }
+
+    fieldset{
+        padding-left: 8rem;
+    }
 }

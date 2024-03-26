@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belgrade Chamber: Uniting Commerce & Culture</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="icon" href="bg-logo.ico">
+    <script>
+        function setTimestamp() {
+            var timestampField = document.getElementById('timestamp');
+            var currentDate = new Date();
+            timestampField.value = currentDate.toLocaleString();
+        }
+    </script>
+</head>
+<body>
+    <header>
+    
+            <h1>Belgrade Chamber</h1>
+
+        <button id="menu"></button>
+        
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Discover</a>
+            <a href="#">Directory</a>
+            <a href="#">Join</a>
+        </nav>
+    </header>
+
+    <main id="form">
+        <form action="thankyou.html" method="get">
+            <fieldset>
+                <h1>Sign Up</h1>
+                <label>First Name <input type="text" id="fname" name="fname" required></label>
+                <label>Last Name <input type="text" id="lname" name="lname" required></label>
+                <label>Title or Position <input type="text" id="profession" name="profession" required pattern="^[a-zA-Z\s\-]{7,}$"></label>
+                <label>E-mail address <input type="email" id="email" name="email" required placeholder="e.g. john@gmail.com"></label>
+                <label>Phone Number <input type="tel" id="number" name="number" required></label>
+                <label>Business / Organization's name <input type="text" id="organization" name="organization" required></label>
+                <div id="level">
+                <label>Membership Level </label>
+                <label id="heading"><input type="radio" name="membership" value="np"> NP Membership </label>
+                <label><input type="radio" name="membership" value="bronze"> Bronze Membership </label>
+                <label><input type="radio" name="membership" value="silver"> Silver Membership </label>
+                <label><input type="radio" name="membership" value="gold"> Gold Membership </label>
+                </div>
+                <label>Business / Organization's description <input type="text" id="description" name="description"></label>
+                <label for><input type="hidden" id="timestamp" name="timestamp" readonly></label>
+                <input type="submit" id="submit-button" value="Submit Form">
+            </fieldset>  
+        </form>
+        <div id="membership">
+        <h1>Membership Levels</h1>
+        <h2>Gold Membership</h2>
+            <p>Gold Membership, priced at $500 annually, provides premium visibility on the Belgrade Chamber website, exclusive networking opportunities with key stakeholders, and priority consideration for Chamber-sponsored activities such as trade missions.</p>
+        <h2>Silver Membership</h2>
+            <p>Silver Membership, priced at $300 annually, includes a detailed business profile on the website, invitations to networking mixers and seminars, and access to discounted advertising rates in Chamber publications.
+            </p>
+        <h2>Bronze Membership</h2>
+        <p>Bronze Membership, at $150 annually, offers a basic listing on the Chamber website, invitations to select events, and access to Chamber resources like business directories.
+        </p>
+        <h2>NP Membership</h2>
+        <p>Non-Profit (NP) Membership, priced at $0 annually, grants non-profit organizations a platform on the Chamber website, invitations to networking events, and access to resources for fundraising and collaboration efforts.        </p>
+        </div>  
+ 
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Belgrade Culinary Chamber | belgradechamber@gmail.com</p>
+        <p>This is a WDD 230 project | Last Modified: </p>
+        <p id="last-modified">This is a WDD 230 project | Last Modified: </p>
+
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+</html>

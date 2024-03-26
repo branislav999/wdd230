@@ -8,16 +8,11 @@ body
 }
 
 header
-{
+{   margin-top: -2rem;
     background-color: #005f73;
     text-align: center;
     padding-bottom: 2rem;  
  } 
-
-
-
-
-
 
 #hero-button {
     background-color: #eae2b7;
@@ -71,6 +66,7 @@ footer
 header h1{
     font-size: 3rem;
     padding-top: 1.5rem;
+    color: #eae2b7;
 }
 
 /* id selectors */
@@ -140,3 +136,84 @@ nav ul a{
     color: #eae2b7;
 
 } */
+
+
+
+/* join selectors */
+
+label{
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+}
+input{
+    display: block;
+    margin-bottom: 1rem;
+    padding: 1rem 1rem;
+    border: 2px solid gray;
+    border-radius: 8px;
+    width: 400px;
+}
+
+fieldset{
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 5px 5px #093863;
+    border: none;
+    border-radius: 10px;
+    background-color: #aaa59f;
+}
+
+input[type="radio"] {
+    display: inline;
+}
+input[type="submit"]{
+    cursor: pointer;
+    margin-top: 3rem;
+    width: 430px;
+}
+
+#description{
+    height: 80px;
+    text-align: left;
+}
+
+#level input{
+    padding: 1rem 0;
+    max-width: 30px;
+}
+#level{
+    padding: 1rem 0;
+}
+
+#form{
+    display: block;
+    padding: 2% 2%;
+
+}
+
+#heading{
+    padding-top: 1rem;
+}
+
+
+#membership{
+
+    padding: 2rem 1rem;
+    box-shadow: 0 2px 5px 5px #093863;
+    border: none;
+    border-radius: 10px;
+    background-color: #aaa59f;
+    margin: 2rem 0.2rem;
+}
+
+
+#membership p{
+    font-size: 1.4rem;
+    margin-top: -1rem;
+}
+
+
+#message{
+    text-align: center;
+    font-size: 3rem;
+}
