@@ -1,0 +1,94 @@
+
+{
+    "weeks": [
+    {
+    "week": "Week 01",
+    "links": [
+    {
+    "url": "https://branislav999.github.io/wdd230-01/week01/holygrail",
+    "title": "Layout | "
+    },
+    {
+    "url": "https://branislav999.github.io/wdd230-01/week01/media-query.html",
+    "title": "Media Query | "
+    },
+    {
+    "url": "https://codepen.io/blazzard-jason/pen/PoaKOxe",
+    "title": "Codepen | "
+    }
+    ]
+    },
+    {
+    "week": "Week 02",
+    "links": [
+    {
+    "url": "https://branislav999.github.io/wdd230-01/week02/design.html",
+    "title": "Design | "
+    },
+    {
+    "url": "https://codepen.io/baneneba/pen/rNbLNrP",
+    "title": "Codepen | "
+    },
+    {
+    "url": "https://branislav999.github.io/wdd230-01/week02/bom.html",
+    "title": "DOM "
+    }
+    ]
+    },
+    {
+    "week": "Week 03",
+    "links": [
+    {
+    "url": "week03/images/landscape.webp",
+    "title": "Compressed Image | "
+    },
+    {
+    "url": "week03/lazyload.html",
+    "title": "Lazyload | "
+    }
+    ]
+    },
+    {
+    "week": "Week 04",
+    "links": [
+    {
+    "url": "https://codepen.io/baneneba/pen/ExJZqVL",
+    "title": "Codepen | "
+    },
+    {
+    "url": "week04/images/combinators.png",
+    "title": "Combinators | "
+    },
+    {
+    "url": "week04/tablebuild.html",
+    "title": "Table | "
+    },
+    {
+    "url": "form-start/Form-start/index.html",
+    "title": "Forms"
+    }
+    ]
+    },
+    {
+    "week": "Week 05",
+    "links": [
+    {
+    "url": "https://codepen.io/baneneba/pen/VwNzaLg",
+    "title": "Codepen | "
+    },
+    {
+    "url": "week05/new-ward-members.json",
+    "title": "JSON | "
+    },
+    {
+    "url": "week05/prophets.html",
+    "title": "Prophets | "
+    },
+    {
+    "url": "week05/weather.html",
+    "title": "Weather "
+    }
+    ]
+    }
+    ]
+}

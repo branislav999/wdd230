@@ -1,0 +1,12 @@
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-gap: 5px;
+}
+
+section{
+    background-color: rgb(106, 162, 147);
+    border: 2px solid black;
+    text-align: center;
+    
+}
