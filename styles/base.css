@@ -281,7 +281,9 @@ li a
 
 iframe{
     padding-left: 2%;
+    margin-left: 3%;    
     width: 1500px;
     height: 500px;
     max-width: 90%;
+
 }

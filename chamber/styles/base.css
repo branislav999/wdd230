@@ -146,7 +146,7 @@ label{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
 }
-input{
+input, textarea{
     display: block;
     margin-bottom: 1rem;
     padding: 1rem 1rem;
