@@ -1,0 +1,68 @@
+{
+    "members": [
+      {
+        "name": "Inovativna Tehnologija d.o.o.",
+        "address": "Kneza Miloša 123, Beograd, Srbija",
+        "phone": "+381 11 346 7657",
+        "website": "http://www.abctech.com",
+        "image": "abc_tech_logo.png",
+        "membership_level": "Gold",
+        "other_information": "Leading provider of IT solutions in the region."
+      },
+      {
+        "name": "Dodji i Razmeni ",
+        "address": "Bulevar Mihajla Pupina 789, Beograd, Srbija",
+        "phone": "+381 11 324 2753",
+        "website": "http://www.xyzconsulting.rs",
+        "image": "xyz_consulting_logo.png",
+        "membership_level": "Silver",
+        "other_information": "Management consulting firm specializing in strategy development."
+      },
+      {
+        "name": "Marketing Agencija Beograd",
+        "address": "Ilije Garasanina 567, Beograd, Srbija",
+        "phone": "+381 11 555 3624",
+        "website": "http://www.ssi.rs",
+        "image": "ssi_logo.png",
+        "membership_level": "Platinum",
+        "other_information": "Pioneers in software development for various industries."
+      },
+      {
+        "name": "Zdrava hrana",
+        "address": "Bircaninova 89, Beograd, Srbija",
+        "phone": "+381 11 222 3333",
+        "website": "http://www.greentech.rs",
+        "image": "greentech_logo.png",
+        "membership_level": "Bronze",
+        "other_information": "Provider of eco-friendly technology solutions."
+      },
+      {
+        "name": "Srpska Grupa za Ugostiteljstvo",
+      "address": "Ugostiteljska ulica 246, Beograd, Srbija",
+        "phone": "+381 11 444 5555",
+        "website": "http://www.belgrademarketing.rs",
+        "image": "belgrade_marketing_logo.png",
+        "membership_level": "Silver",
+        "other_information": "Full-service marketing agency catering to local and international clients."
+      },
+      {
+        "name": "Dva sesira",
+        "address": "Skadarska 24, Belgrade, Serbia",
+        "phone": "+381 11 777 8888",
+        "website": "http://www.techinnovators.rs",
+        "image": "tech_innovators_logo.png",
+        "membership_level": "Gold",
+        "other_information": "Driving innovation in the tech industry through research and development."
+      },
+      {
+        "name": "Serbian Hospitality Group",
+        "address": "246 Hospitality Street, Belgrade, Serbia",
+        "phone": "+381 11 999 0000",
+        "website": "http://www.serbianhospitality.rs",
+        "image": "serbian_hospitality_logo.png",
+        "membership_level": "Platinum",
+        "other_information": "Leading provider of hospitality services including hotels and restaurants."
+      }
+    ]
+  }
+  
