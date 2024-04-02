@@ -62,4 +62,9 @@
         font-size: 2rem;
     }
 
+    #staje ul a {
+        width: 140px;
+        text-align: center;
+    }
+
 }

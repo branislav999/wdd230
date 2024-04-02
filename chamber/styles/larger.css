@@ -31,7 +31,7 @@
 
     #content{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 33% 33% 33%;
         grid-gap: 2rem;
         
     }
@@ -64,6 +64,36 @@
     #form{
         padding: 2% 4%;
     }
+
+    main{
+        padding: 0 50px;
+    }
+
+    
+
+
+    /* discover */
+    #main-discover{
+        padding: 1px 0;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 20px;
+        padding: 20px;
+      }
+      .image-container:hover .image-caption {
+        opacity: 1;
+      }
+
+      .sidebar{
+        margin-top: -20px;
+
+      }
+      
+
+      
 }
 
 @media screen and (min-width: 850px){
@@ -77,6 +107,15 @@
         margin: 0 0 ;
     }
     
+    .container{
+        margin-left: 2%;
+    }
+
+    main{
+        padding: 0 10%;
+    }
+    
+
     
 
 
@@ -89,5 +128,12 @@
 
     fieldset{
         padding-left: 8rem;
+    }
+    .sidebar h3{
+        font-size: 28pt;
+    }
+
+    .sidebar li {
+        font-size: 20pt;
     }
 }
