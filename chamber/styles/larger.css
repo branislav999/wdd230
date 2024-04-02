@@ -69,6 +69,8 @@
         padding: 0 50px;
     }
 
+
+    
     
 
 
@@ -116,6 +118,30 @@
     }
     
 
+    /* directory */
+
+    .members{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-gap: 5px;
+        align-items: center;
+    }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .list div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        height: auto;
+        padding: 0 20px;
+        width: 100%;
+        align-items: center;
+    }
+
     
 
 
@@ -139,11 +165,3 @@
 }
 
 
-/* directory */
-
-.members{
-    display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-	grid-gap: 5px;
-	align-items: center;
-}

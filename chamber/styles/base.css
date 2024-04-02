@@ -33,7 +33,7 @@ footer
     padding: 1rem;
     width: 100%;
     bottom: 0;
-    position: fixed;
+    
 }
 
 /* class selectors */
@@ -145,7 +145,7 @@ label{
     font-family: 'Open Sans', sans-serif;
     font-size: 1.3rem;
 }
-input{
+input, textarea{
     display: block;
     margin-bottom: 1rem;
     padding: 1rem 1rem;
@@ -159,7 +159,8 @@ fieldset{
     box-shadow: 0 2px 5px 5px #093863;
     border: none;
     border-radius: 10px;
-    background-color: #aaa59f;
+    background-color: rgb(232, 248, 247);
+    ;
 }
 
 input[type="radio"] {
@@ -201,7 +202,7 @@ input[type="submit"]{
     box-shadow: 0 2px 5px 5px #093863;
     border: none;
     border-radius: 10px;
-    background-color: #aaa59f;
+    background-color: rgb(232, 248, 247);
     margin: 2rem 0.2rem;
 }
 
@@ -222,7 +223,9 @@ main{
     padding: 0 20px;
 }
 
-/* directory */
+/* discover */
+
+
 .container {
     display: flex;
     flex-direction: column;      
@@ -294,14 +297,60 @@ main{
         padding: 10px;
         background-color: rgb(232, 248, 247);
         border-radius: 8px;
+        height: 320px;
+        text-align: center;
+        padding-top: 30px;
+        
+    }
+
+    .members div p{
+        font-size: 15pt;
     }
 
     .members{
         display: flex;
         flex-direction: column;
+        padding-bottom: 5%;      
+
     }
 
+    
+    
+    
+
+    .list div{
+
+        text-align: left;
+        height: 200px;
+        justify-content: center;
+
+    }
+
+    .list img{
+        display: none;
+    }
+
+
   
+    .buttons button{
+        margin-right: 10px;
+        padding: 10px;
+        margin: 10px;
+        font-size: 20pt;
+        border-radius: 10px;
+        background-color: rgb(232, 248, 247);
+        border: 2px solid #005f73;
+    }
+
+    .buttons{
+        text-align: center;
+        margin-top: 20px;
+        padding-right: 10px;
+    }
+
+    .list div:nth-child(even) {
+        background-color: #ffffff; 
+    }
 
 
   

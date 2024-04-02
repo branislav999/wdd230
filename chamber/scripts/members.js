@@ -16,34 +16,45 @@ async function fetchData() {
       img.setAttribute('width', '100');
 
       const name = document.createElement('p');
-      name.textContent = 'Name: ' + company.name;
+      name.textContent = company.name;
 
       const address = document.createElement('p');
-      address.textContent = 'Address: ' + company.address;
+      address.textContent = company.address;
 
       const phone = document.createElement('p');
-      phone.textContent = 'Phone: ' + company.phone;
+      phone.textContent = company.phone;
 
       const website = document.createElement('p');
-      website.textContent = 'Website: ' + company.website;
-
-      const membershipLevel = document.createElement('p');
-      membershipLevel.textContent = 'Membership Level: ' + company.membership_level;
-
-      const otherInformation = document.createElement('p');
-      otherInformation.textContent = 'Other Information: ' + company.other_information;
+      website.textContent = company.website;
 
       div.appendChild(img);
       div.appendChild(name);
       div.appendChild(address);
       div.appendChild(phone);
       div.appendChild(website);
-      div.appendChild(membershipLevel);
-      div.appendChild(otherInformation);
 
       gridContainer.appendChild(div); 
     });
 } 
   
   fetchData();
+  
+
+
+  const gridbutton = document.querySelector("#grid");
+  const listbutton = document.querySelector("#list");
+  const display = document.querySelector("article");
+  
+  
+  gridbutton.addEventListener("click", () => {
+    display.classList.add("grid");
+    display.classList.remove("list");
+  });
+  
+  listbutton.addEventListener("click", showList); 
+  
+  function showList() {
+    display.classList.add("list");
+    display.classList.remove("grid");
+  }
   
