@@ -33,6 +33,7 @@ footer
     padding: 1rem;
     width: 100%;
     bottom: 0;
+    position: fixed;
 }
 
 /* class selectors */
@@ -285,6 +286,22 @@ main{
     border-radius: 8px;
   }
 
+
+  /* directory */
+
+    .members div{
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(232, 248, 247);
+        border-radius: 8px;
+    }
+
+    .members{
+        display: flex;
+        flex-direction: column;
+    }
+
+  
 
 
   

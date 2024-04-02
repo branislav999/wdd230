@@ -5,7 +5,7 @@
         "address": "Kneza Miloša 123, Beograd, Srbija",
         "phone": "+381 11 346 7657",
         "website": "http://www.abctech.com",
-        "image": "abc_tech_logo.png",
+        "image": "images/logo-1.png",
         "membership_level": "Gold",
         "other_information": "Leading provider of IT solutions in the region."
       },
@@ -14,7 +14,7 @@
         "address": "Bulevar Mihajla Pupina 789, Beograd, Srbija",
         "phone": "+381 11 324 2753",
         "website": "http://www.xyzconsulting.rs",
-        "image": "xyz_consulting_logo.png",
+        "image": "images/logo-2.png",
         "membership_level": "Silver",
         "other_information": "Management consulting firm specializing in strategy development."
       },
@@ -23,7 +23,7 @@
         "address": "Ilije Garasanina 567, Beograd, Srbija",
         "phone": "+381 11 555 3624",
         "website": "http://www.ssi.rs",
-        "image": "ssi_logo.png",
+        "image": "images/logo-3.png",
         "membership_level": "Platinum",
         "other_information": "Pioneers in software development for various industries."
       },
@@ -32,7 +32,7 @@
         "address": "Bircaninova 89, Beograd, Srbija",
         "phone": "+381 11 222 3333",
         "website": "http://www.greentech.rs",
-        "image": "greentech_logo.png",
+        "image": "images/logo-4.png",
         "membership_level": "Bronze",
         "other_information": "Provider of eco-friendly technology solutions."
       },
@@ -41,7 +41,7 @@
       "address": "Ugostiteljska ulica 246, Beograd, Srbija",
         "phone": "+381 11 444 5555",
         "website": "http://www.belgrademarketing.rs",
-        "image": "belgrade_marketing_logo.png",
+        "image": "images/logo-6.png",
         "membership_level": "Silver",
         "other_information": "Full-service marketing agency catering to local and international clients."
       },
@@ -50,7 +50,7 @@
         "address": "Skadarska 24, Belgrade, Serbia",
         "phone": "+381 11 777 8888",
         "website": "http://www.techinnovators.rs",
-        "image": "tech_innovators_logo.png",
+        "image": "images/logo-7.png",
         "membership_level": "Gold",
         "other_information": "Driving innovation in the tech industry through research and development."
       },
@@ -59,7 +59,7 @@
         "address": "246 Hospitality Street, Belgrade, Serbia",
         "phone": "+381 11 999 0000",
         "website": "http://www.serbianhospitality.rs",
-        "image": "serbian_hospitality_logo.png",
+        "image": "images/logo-8.png",
         "membership_level": "Platinum",
         "other_information": "Leading provider of hospitality services including hotels and restaurants."
       }
