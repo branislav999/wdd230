@@ -100,12 +100,9 @@ nav li:hover
 }
 
 #dark::before{
-    content: "Dark Mode";
+    content: "Change Mode";
 }
 
-#dark.change::before{
-    content: "Light Mode";
-}
 
 #dark{
     background-color: #e9edc9; 

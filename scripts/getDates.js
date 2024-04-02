@@ -9,9 +9,11 @@ button.addEventListener("click",() =>{
 })
 
 
+
+document.getElementById('last-modified').textContent += document.lastModified;
+
 const dark = document.querySelector("#dark");
 const main = document.querySelector('main')
-const footer = document.querySelector('footer')
 
 dark.addEventListener("click", () => {
     main.classList.toggle('change');
