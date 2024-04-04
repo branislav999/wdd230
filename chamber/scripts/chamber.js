@@ -122,7 +122,7 @@ fetchData();
 const today = new Date();
 const dayOfWeek = today.getDay();
 
-if (dayOfWeek === 1 || dayOfWeek === 2 || dayOfWeek === 4) {
+if (dayOfWeek === 1 || dayOfWeek === 2 || dayOfWeek === 3) {
     const banner = document.querySelector('#banner');
     banner.style.display = 'block'; 
 
