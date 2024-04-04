@@ -4,31 +4,45 @@ body
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #eae2b7;
+    background-color: #f8f1db;
 }
 
 header
 {   margin-top: -2rem;
-    background-color: #005f73;
+    background-color: #092145;
     text-align: center;
     padding-bottom: 2rem;  
     width: 100%;
  } 
 
-#hero-button {
-    background-color: #eae2b7;
-    color: #005f73;
-    padding: 1rem 2rem;
+ #hero-button {
+    background-color: #f8f1db; 
+    color: #092145; 
+    padding: 0.3rem 1.5rem; 
     cursor: pointer;
-    font-size: 1em;
+    font-size: 1.2em; 
+    border: none;
+    border-radius: 5px; 
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+#hero-button:hover {
+    background-color: #092145;
+    color: #f8f1db;
+    transform: scale(1.05);
+}
+
+#hero-button:active {
+    transform: scale(0.95);
 }
 
 
 
 footer
 {
-    background-color: #005f73;
-    color: #e9ecef;
+    background-color: #092145;
+    color: #f8f1db;
     text-align: center;
     padding: 1rem;
     width: 100%;
@@ -57,15 +71,18 @@ footer
     text-align: center;    
 }
 
-.events, .weather, .ad{
-    border: 2px solid black;
-    padding: 0 2rem;
+.events, .weather, .ad {
+    margin-bottom: 2rem; 
+    padding: 1rem; 
+    background-color: rgb(232, 248, 247); 
+    box-shadow: 0 2px 5px #092145; 
+    border-radius: 5px; 
 }
 
 header h1{
     font-size: 3rem;
     padding-top: 1.5rem;
-    color: #eae2b7;
+    color: #f8f1db;
 }
 
 /* id selectors */
@@ -87,8 +104,8 @@ header h1{
     position: absolute;
     left: 25px;
     cursor: pointer;
-    color: #005f73;
-    background-color: #eae2b7;
+    color: #092145;
+    background-color: #f8f1db;
     font-size: 2rem;
 }
 
@@ -111,13 +128,33 @@ header h1{
     justify-content: center;
     list-style: none;
     padding: 1rem;
+    margin-bottom: -2rem;
+    
 }
 
 .navigation a{
     text-decoration: none;
     padding: 1rem;
-    color: #eae2b7;
+    color: #f8f1db;
     display: none;
+    font-size: 1.6rem;
+}
+
+
+
+
+#description p{
+
+    font-size: 2rem;
+    text-align: center;
+}
+
+#scenarios h2, #scenarios p{
+    font-size: 2rem;
+}
+
+#scenarios{
+    margin-top: 5rem;
 }
 
 
@@ -272,18 +309,18 @@ main{
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #092145;
     color: #fff;
-    padding: 8px;
+    padding: 18px;
     text-align: center;
-    font-size: 14px;
+    font-size: 20px;
     opacity: 0;
     transition: opacity 0.3s ease;
   }
   
 
   .sidebar div{
-    border: 2px solid black;
+    border: 2px solid #092145;
     margin: 5% 0;
     padding: 5%;
     border-radius: 8px;
@@ -339,7 +376,8 @@ main{
         font-size: 20pt;
         border-radius: 10px;
         background-color: rgb(232, 248, 247);
-        border: 2px solid #005f73;
+        border: 2px solid #092145;
+        cursor: pointer;
     }
 
     .buttons{

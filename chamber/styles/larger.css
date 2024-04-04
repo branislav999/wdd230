@@ -13,20 +13,7 @@
     }  */
 
 
-    #menu{
-        display: none;
-    }
-
-
-    .navigation{
-        flex-direction: row;
-    }
-
-    .navigation a{
-        display: block;
-        padding: 0 5%;
-        font-size: 2rem;
-    }
+    
 
 
     #content{
@@ -48,13 +35,7 @@
         grid-column: 3/4;
     }
 
-    .hero-text{
-        position: absolute;
-        top:22%;
-        left:20%;
-        text-align: center; 
-        font-size: 3rem;   
-    }
+    
 
 
     input{
@@ -93,6 +74,14 @@
         margin-top: -20px;
 
       }
+
+      .hero-text{
+        position: absolute;
+        top:12%;
+        left:10%;
+        text-align: center; 
+        font-size: 2rem;   
+    }
       
 
       
@@ -100,11 +89,30 @@
 
 @media screen and (min-width: 850px){
     #form{
+
+        
         display: grid;
         grid-template-columns: 55% 45%;
         grid-gap: 2rem;
     }
 
+    
+    #menu{
+        display: none;
+    }
+
+
+    .navigation{
+        flex-direction: row;
+        margin-bottom: -.5rem;
+    }
+
+    .navigation a{
+        display: block;
+        padding: 0 5%;
+        font-size: 2rem;
+    }
+    
     #membership{
         margin: 0 0 ;
     }
@@ -150,6 +158,14 @@
 @media screen and (min-width: 1000px){
     #form{
         padding: 2% 10%;
+    }
+
+    .hero-text{
+        position: absolute;
+        top:22%;
+        left:20%;
+        text-align: center; 
+        font-size: 3rem;   
     }
 
     fieldset{
