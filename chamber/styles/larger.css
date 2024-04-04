@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 495px) {
 
     /* nav ul {
         display: flex;
@@ -12,28 +12,12 @@
         padding: 0 5%;
     }  */
 
-
+   
+    
     
 
-
-    #content{
-        display: grid;
-        grid-template-columns: 33% 33% 33%;
-        grid-gap: 2rem;
-        
-    }
-
-    .events {
-        grid-column: 1/2;
-    }
+   
     
-    .weather{
-        grid-column: 2/3;
-    }
-
-    .ad{
-        grid-column: 3/4;
-    }
 
     
 
@@ -76,15 +60,46 @@
       }
 
       .hero-text{
-        position: absolute;
-        top:12%;
+        top: 36%;
         left:10%;
-        text-align: center; 
         font-size: 2rem;   
     }
-      
+
+    
+#menu{
+    left: 25px;
+    top: 150px;
+    font-size: 2rem;
+}
+
+    .navigation a {
+        font-size: 1rem;
+    }
+    
 
       
+}
+
+
+@media screen and (min-width: 600px){
+    .navigation{
+        flex-direction: row;
+        margin-bottom: -.5rem;
+    }
+
+    .navigation a{
+        display: block;
+        padding: 0 5%;
+        font-size: 2rem;
+    }
+    #menu{
+        display: none;
+    }
+
+    
+
+    
+
 }
 
 @media screen and (min-width: 850px){
@@ -96,22 +111,28 @@
         grid-gap: 2rem;
     }
 
+    #content{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+
+    }
+    #events{
+        grid-column: 1/4;
+    }
+
+    #weather{
+        grid-column: 4/7;
+    }
+
+    #ad{
+        grid-column: 2/6;
+    }
+
     
-    #menu{
-        display: none;
-    }
 
+   
 
-    .navigation{
-        flex-direction: row;
-        margin-bottom: -.5rem;
-    }
-
-    .navigation a{
-        display: block;
-        padding: 0 5%;
-        font-size: 2rem;
-    }
     
     #membership{
         margin: 0 0 ;
