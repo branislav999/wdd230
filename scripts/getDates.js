@@ -63,3 +63,9 @@ function displayResults(data) {
     weatherIcon.setAttribute('alt', desc); 
     captionDesc.textContent = `${desc}`; 
 }
+
+
+const currentYear = new Date().getFullYear();
+
+const copyrightElement = document.querySelector('footer p:first-child');
+copyrightElement.textContent += `${currentYear} Branislav Bogosavac, Serbia`;
